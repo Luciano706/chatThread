@@ -19,6 +19,8 @@ import java.util.logging.Logger;
  * @author Toyfr
  */
 public class Server{
+    //Modifica fatta
+    //Ciaoo
     private ServerSocket serverSocket;
     /*private Socket clientSocket;
     private PrintWriter out;
