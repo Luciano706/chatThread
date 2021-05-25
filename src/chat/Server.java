@@ -21,6 +21,7 @@ import java.util.logging.Logger;
 public class Server{
     //Modifica fatta
     //Ciaoo
+    //va bene
     private ServerSocket serverSocket;
     /*private Socket clientSocket;
     private PrintWriter out;
@@ -55,6 +56,7 @@ public class Server{
     }*/
     
     public void startServer(int port){
+        System.out.println("prova");
         try{
             serverSocket=new ServerSocket(port);
             while(true)
@@ -84,7 +86,6 @@ public class Server{
                 //this.stop();                
                 this.stopServer();
                 System.out.println("Connessione terminata");
-                //return;
             }
         }*/
         
